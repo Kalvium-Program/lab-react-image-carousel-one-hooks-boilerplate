@@ -1,1 +1,64 @@
 /* write down the css for Carousel in this file */
+
+.carousel-container {
+ 
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .arrow-btn-left {
+    position: absolute;
+    top: 50%;
+    left:10% ;
+    background-color: transparent;
+    border: none;
+    font-size: 24px;
+    cursor: pointer;
+  }
+  
+ 
+  .arrow-btn-right {
+    position: absolute;
+    top: 50%;
+    left:85% ;
+    background-color: transparent;
+    border: none;
+    font-size: 24px;
+    cursor: pointer;
+  }
+  
+  
+  .carousel-item {
+    position: relative;
+    overflow: hidden;
+  }
+  
+  .text-overlay {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    text-align: center;
+    width: 100%;
+    z-index: 1;
+  }
+  
+   h2 {
+    position: absolute;
+  left: 40%;
+  top: 5%;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+  }
+  
+  
+  p {
+    position: absolute;
+  left: 30%;
+  top: 85%;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+  }
