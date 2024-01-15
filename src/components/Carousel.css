@@ -1,1 +1,65 @@
 /* write down the css for Carousel in this file */
+.App {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: grey;
+  }
+  
+  body {
+    margin: 0;
+    padding: 0;
+  }
+  .mainContainer{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      position: relative;
+      background-color: rgba(0, 0, 0, 0.651);
+      padding: 10px;
+  }
+  
+  .imageBox{
+      width: 600px;
+      height: 600px;
+      overflow: hidden;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+  }
+  .imageContainer{
+    position: absolute;
+    height:600px  ;
+    width: 600px;
+    overflow: hidden;
+  }
+  .titleBox, .subTitleBox{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    opacity: 0.7;
+    border-radius: 10px;
+  }
+  .titleBox{
+    width: 50%;
+    margin-left: 25%;
+    margin-top: 15%;
+    font-weight: 900;
+    font-size: 20px;
+  }
+  .subTitleBox{
+    width: 80%;
+    margin-left: 12%;
+    margin-top: 50%;
+    font-weight: 800;
+  }
+  
+  
+  .arrow{
+    cursor: pointer;
+    filter: invert();
+  }
